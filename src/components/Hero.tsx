@@ -10,6 +10,34 @@ interface HeroProps {
 export const Hero: React.FC<HeroProps> = ({ onOpenSignUp, onScrollToAPIs }) => {
   return (
     <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-red-900 text-white">
+      {/* ASCII Art Watermark */}
+      <div className="absolute top-10 right-10 opacity-10 text-white font-mono text-xs leading-none pointer-events-none select-none hidden lg:block">
+        <pre>{`
+    ██████╗ ███████╗ ██████╗ ████████╗███████╗ ██████╗██╗  ██╗
+    ██╔══██╗██╔════╝██╔════╝ ╚══██╔══╝██╔════╝██╔════╝██║  ██║
+    ██████╔╝█████╗  ██║  ███╗   ██║   █████╗  ██║     ███████║
+    ██╔══██╗██╔══╝  ██║   ██║   ██║   ██╔══╝  ██║     ██╔══██║
+    ██║  ██║███████╗╚██████╔╝   ██║   ███████╗╚██████╗██║  ██║
+    ╚═╝  ╚═╝╚══════╝ ╚═════╝    ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝
+                                                              
+        ┌─────────────────────────────────────────────────┐
+        │  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  │
+        │  ░░██╗██████╗ ███████╗███╗   ██╗████████╗░░░░░  │
+        │  ░░██║██╔══██╗██╔════╝████╗  ██║╚══██╔══╝░░░░░  │
+        │  ░░██║██║  ██║█████╗  ██╔██╗ ██║   ██║   ░░░░░  │
+        │  ░░██║██║  ██║██╔══╝  ██║╚██╗██║   ██║   ░░░░░  │
+        │  ░░██║██████╔╝███████╗██║ ╚████║   ██║   ░░░░░  │
+        │  ░░╚═╝╚═════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝   ░░░░░  │
+        │  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  │
+        └─────────────────────────────────────────────────┘
+                    ╔══════════════════════╗
+                    ║   VERIFICATION API   ║
+                    ║   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ║
+                    ║   ░░░░░░░░░░░░░░░░░░   ║
+                    ╚══════════════════════╝
+        `}</pre>
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
         <div className="text-center">
           <h1 className="font-gilroy text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight tracking-tight">
