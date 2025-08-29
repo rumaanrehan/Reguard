@@ -52,13 +52,13 @@ export const APIDetailPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>{apiData.name} - RegTech API Documentation | Regaurd</title>
+        <title>{apiData.name} - RegTech API Documentation | Reguard</title>
         <meta name="description" content={`${apiData.longDescription} Integrate ${apiData.name} with ${apiData.accuracy} accuracy, ${apiData.responseTime} response time, and enterprise-grade security. Complete API documentation, code examples, and pricing.`} />
         <meta name="keywords" content={`${apiData.name}, ${apiData.category} API, identity verification API, document verification, OCR API, fraud detection API, biometric verification, liveness detection, KYC compliance API, RegTech API, financial services API, document authentication, machine learning verification, real-time fraud detection, government document verification, passport verification API, driver license verification, national ID verification, compliance automation`} />
-        <link rel="canonical" href={`https://regaurd.com/apis/${category}/${apiId}`} />
+        <link rel="canonical" href={`https://reguard.com/apis/${category}/${apiId}`} />
         <meta property="og:title" content={`${apiData.name} - RegTech API Documentation`} />
         <meta property="og:description" content={`Advanced ${apiData.category} API with ${apiData.accuracy} accuracy and ${apiData.responseTime} response time.`} />
-        <meta property="og:url" content={`https://regaurd.com/apis/${category}/${apiId}`} />
+        <meta property="og:url" content={`https://reguard.com/apis/${category}/${apiId}`} />
       </Helmet>
       <Header />
       

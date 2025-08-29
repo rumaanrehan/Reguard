@@ -295,13 +295,13 @@ export const IndustryDetailPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>{industry.title} - {industry.subtitle} | Regaurd RegTech Solutions</title>
+        <title>{industry.title} - {industry.subtitle} | Reguard RegTech Solutions</title>
         <meta name="description" content={`${industry.longDescription} Specialized RegTech solutions for ${industry.title.toLowerCase()} with advanced compliance automation, risk management, and regulatory reporting.`} />
         <meta name="keywords" content={`${industry.title}, ${industry.subtitle}, RegTech solutions, compliance automation, ${industry.title.includes('Banking') ? 'banking compliance, NBFC solutions, RBI guidelines, digital KYC, AML monitoring' : industry.title.includes('Fintech') ? 'fintech compliance, payment processing, fraud detection, digital wallet KYC' : industry.title.includes('Insurance') ? 'insurance RegTech, claim fraud detection, risk assessment, IRDAI compliance' : industry.title.includes('Mutual') ? 'mutual fund compliance, SEBI regulations, investor KYC, AMC solutions' : 'cryptocurrency compliance, crypto exchange KYC, AML monitoring, digital asset regulation'}, regulatory technology, financial compliance, automated verification, risk management platform`} />
-        <link rel="canonical" href={`https://regaurd.com/industries/${industryId}`} />
+        <link rel="canonical" href={`https://reguard.com/industries/${industryId}`} />
         <meta property="og:title" content={`${industry.title} - Specialized RegTech Solutions`} />
         <meta property="og:description" content={industry.description} />
-        <meta property="og:url" content={`https://regaurd.com/industries/${industryId}`} />
+        <meta property="og:url" content={`https://reguard.com/industries/${industryId}`} />
         <meta property="og:image" content={industry.image} />
       </Helmet>
       <Header />
@@ -482,7 +482,7 @@ export const IndustryDetailPage: React.FC = () => {
                 </div>
               </div>
               <blockquote className="text-lg text-gray-700 italic mb-4">
-                "Regaurd's {industry.title.toLowerCase()} solutions have transformed our compliance operations. The automation and accuracy have significantly improved our efficiency while ensuring full regulatory compliance."
+                "Reguard's {industry.title.toLowerCase()} solutions have transformed our compliance operations. The automation and accuracy have significantly improved our efficiency while ensuring full regulatory compliance."
               </blockquote>
               <div className="flex items-center space-x-1">
                 {[...Array(5)].map((_, i) => (

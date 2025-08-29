@@ -96,13 +96,13 @@ export const CareersPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Careers at ReGuard India - Join Our RegTech Team | Regaurd</title>
+        <title>Careers at ReGuard India - Join Our RegTech Team | Reguard</title>
         <meta name="description" content="Join ReGuard India's mission to revolutionize regulatory compliance. Explore career opportunities in engineering, product, sales, and compliance at India's leading RegTech company. Competitive benefits, global impact, and growth opportunities." />
         <meta name="keywords" content="ReGuard India careers, RegTech jobs, fintech careers, compliance jobs, software engineer jobs, product manager jobs, data scientist jobs, DevOps engineer jobs, sales director jobs, Bangalore jobs, Mumbai jobs, remote jobs, financial technology careers, regulatory technology jobs, startup careers India" />
-        <link rel="canonical" href="https://regaurd.com/careers" />
+        <link rel="canonical" href="https://reguard.com/careers" />
         <meta property="og:title" content="Careers at ReGuard India - Join Our RegTech Team" />
         <meta property="og:description" content="Join India's leading RegTech company. Explore exciting career opportunities with competitive benefits and global impact." />
-        <meta property="og:url" content="https://regaurd.com/careers" />
+        <meta property="og:url" content="https://reguard.com/careers" />
       </Helmet>
       <Header />
       
@@ -224,7 +224,7 @@ export const CareersPage: React.FC = () => {
                   
                   <div className="mt-4 lg:mt-0 lg:ml-6">
                     <a 
-                      href="mailto:careers@regaurd.com?subject=Application for Software Engineer Position"
+                      href="mailto:careers@reguard.com?subject=Application for Software Engineer Position"
                       className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors flex items-center space-x-2"
                     >
                       <span>Apply Now</span>
@@ -302,7 +302,7 @@ export const CareersPage: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="mailto:careers@regaurd.com?subject=Resume Submission - General Application"
+              href="mailto:careers@reguard.com?subject=Resume Submission - General Application"
               className="bg-white hover:bg-gray-100 text-red-600 px-8 py-4 rounded-lg text-lg font-semibold transition-colors shadow-lg hover:shadow-xl text-center"
             >
               Send Your Resume

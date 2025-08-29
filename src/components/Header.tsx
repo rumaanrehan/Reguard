@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { SignUpModal } from './SignUpModal';
+import { LoginModal } from './LoginModal';
 import { Menu, X, ChevronDown, UserCheck, Users, Shield, FileText, AlertTriangle, Eye, TrendingUp, Building2, CreditCard, Globe, Database, Gavel, ExternalLink, Briefcase, BookOpen, Info, Sparkles, Clock } from 'lucide-react';
 
 const apiCategories = [
@@ -44,6 +45,7 @@ export const Header: React.FC = () => {
     isOpen: false,
     type: 'signup'
   });
+  const [loginModalOpen, setLoginModalOpen] = useState(false);
 
   const openSignUpModal = (type: 'signup' | 'demo' | 'trial') => {
     setSignUpModal({ isOpen: true, type });
@@ -61,7 +63,7 @@ export const Header: React.FC = () => {
   };
 
   const redirectToConsole = () => {
-    window.open('https://console.regaurd.in', '_blank');
+    setLoginModalOpen(true);
   };
 
   return (
@@ -69,11 +71,15 @@ export const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
-            <img src="/regaurd logo.svg" alt="Regaurd" className="h-9 w-auto" />
+            <Link to="/">
+              <img src="/reguard logo.svg" alt="Reguard" className="h-9 w-auto" />
+            </Link>
             <div className="hidden lg:flex items-center ml-4">
-              <span className="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-3 py-1 rounded-full text-xs font-medium animate-pulse">
-                We're Hiring
-              </span>
+              <Link to="/careers">
+                <span className="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-3 py-1 rounded-full text-xs font-medium animate-pulse">
+                  We're Hiring
+                </span>
+              </Link>
             </div>
           </div>
           
@@ -493,13 +499,13 @@ export const Header: React.FC = () => {
               
               <div className="border-t border-gray-100 pt-4 space-y-3">
                 <button 
-                  onClick={redirectToConsole}
+                  onClick={() => setLoginModalOpen(true)}
                   className="block w-full text-left text-gray-700 hover:text-red-600 px-3 py-2 text-base font-medium rounded-lg hover:bg-gray-50 transition-colors"
                 >
-                  Sign In
+                  Log In
                 </button>
                 <button 
-                  onClick={() => openSignUpModal('signup')}
+                  onClick={() => openSignUpModal('trial')}
                   className="block w-full bg-red-600 hover:bg-red-700 text-white px-3 py-3 rounded-lg text-base font-semibold transition-colors shadow-sm"
                 >
                   Get Started
@@ -514,6 +520,10 @@ export const Header: React.FC = () => {
         isOpen={signUpModal.isOpen}
         onClose={closeSignUpModal}
         type={signUpModal.type}
+      />
+      <LoginModal
+        isOpen={loginModalOpen}
+        onClose={() => setLoginModalOpen(false)}
       />
     </header>
   );

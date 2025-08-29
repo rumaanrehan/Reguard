@@ -33,11 +33,11 @@ export const SignUpModal: React.FC<SignUpModalProps> = ({ isOpen, onClose, type 
   const getModalDescription = () => {
     switch (type) {
       case 'demo':
-        return 'Schedule a personalized demo to see how Regaurd can transform your identity verification process.';
+        return 'Schedule a personalized demo to see how Reguard can transform your identity verification process.';
       case 'trial':
         return 'Start your free trial with 1000 API calls. No credit card required.';
       default:
-        return 'Join thousands of businesses using Regaurd for secure identity verification.';
+        return 'Join thousands of businesses using Reguard for secure identity verification.';
     }
   };
 
@@ -45,7 +45,7 @@ export const SignUpModal: React.FC<SignUpModalProps> = ({ isOpen, onClose, type 
     switch (type) {
       case 'demo':
         return {
-          title: 'See Regaurd in Action',
+          title: 'See Reguard in Action',
           subtitle: 'Discover how leading companies verify identities at scale',
           features: [
             { icon: Shield, text: 'Bank-grade security' },
@@ -66,7 +66,7 @@ export const SignUpModal: React.FC<SignUpModalProps> = ({ isOpen, onClose, type 
       default:
         return {
           title: 'Transform Your Business',
-          subtitle: 'Join the future of identity verification with Regaurd',
+          subtitle: 'Join the future of identity verification with Reguard',
           features: [
             { icon: Shield, text: 'Enterprise security' },
             { icon: Zap, text: '99.9% uptime SLA' },

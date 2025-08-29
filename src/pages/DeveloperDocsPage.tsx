@@ -9,10 +9,10 @@ export const DeveloperDocsPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Developer Documentation - API Guides & SDKs | Regaurd RegTech APIs</title>
-        <meta name="description" content="Comprehensive developer documentation for Regaurd's RegTech APIs. Integration guides, SDKs, code examples, and technical resources for KYC, AML, fraud detection, and compliance automation APIs." />
+        <title>Developer Documentation - API Guides & SDKs | Reguard RegTech APIs</title>
+        <meta name="description" content="Comprehensive developer documentation for Reguard's RegTech APIs. Integration guides, SDKs, code examples, and technical resources for KYC, AML, fraud detection, and compliance automation APIs." />
         <meta name="keywords" content="RegTech API documentation, developer guides, API integration, SDK documentation, KYC API docs, AML API guides, fraud detection API, compliance API documentation, identity verification API, technical documentation, API reference, code examples, integration tutorials" />
-        <link rel="canonical" href="https://regaurd.com/resources/developer-docs" />
+        <link rel="canonical" href="https://reguard.com/resources/developer-docs" />
       </Helmet>
       <Header />
       

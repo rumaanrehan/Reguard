@@ -352,13 +352,13 @@ export const SolutionDetailPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>{solution.name} - {solution.tagline} | Regaurd RegTech Solutions</title>
+        <title>{solution.name} - {solution.tagline} | Reguard RegTech Solutions</title>
         <meta name="description" content={`${solution.longDescription} Enterprise-grade ${solution.name} solution with advanced features, compliance automation, and 24/7 support.`} />
         <meta name="keywords" content={`${solution.name}, ${solution.tagline}, RegTech solution, compliance automation, ${solution.name === 'EmbedKYC' ? 'KYC workflow builder, custom onboarding, drag drop KYC, financial compliance' : solution.name === 'WatchDawg' ? 'AML monitoring, risk management, sanctions screening, transaction monitoring, financial crime prevention' : 'reputation management, brand monitoring, crisis management, sentiment analysis, social media monitoring'}, enterprise software, regulatory technology, compliance platform, automated monitoring, risk mitigation`} />
-        <link rel="canonical" href={`https://regaurd.com/solutions/${solutionId}`} />
+        <link rel="canonical" href={`https://reguard.com/solutions/${solutionId}`} />
         <meta property="og:title" content={`${solution.name} - ${solution.tagline}`} />
         <meta property="og:description" content={solution.description} />
-        <meta property="og:url" content={`https://regaurd.com/solutions/${solutionId}`} />
+        <meta property="og:url" content={`https://reguard.com/solutions/${solutionId}`} />
         <meta property="og:image" content={solution.image} />
       </Helmet>
       <Header />

@@ -35,7 +35,7 @@ export const ResourcesPage: React.FC = () => {
     {
       id: 'case-studies',
       title: 'Case Studies',
-      description: 'Real-world success stories from our clients showcasing how Regaurd solutions have transformed their compliance operations and business outcomes.',
+      description: 'Real-world success stories from our clients showcasing how Reguard solutions have transformed their compliance operations and business outcomes.',
       icon: FileText,
       gradient: 'from-green-600 to-green-800',
       bgGradient: 'from-green-50 to-green-100',
@@ -46,7 +46,7 @@ export const ResourcesPage: React.FC = () => {
     {
       id: 'developer-docs',
       title: 'Developer Documentation',
-      description: 'Comprehensive API documentation, integration guides, SDKs, and technical resources for developers building with Regaurd APIs.',
+      description: 'Comprehensive API documentation, integration guides, SDKs, and technical resources for developers building with Reguard APIs.',
       icon: Code,
       gradient: 'from-purple-600 to-purple-800',
       bgGradient: 'from-purple-50 to-purple-100',
@@ -80,8 +80,8 @@ export const ResourcesPage: React.FC = () => {
     {
       type: 'Case Study',
       title: 'How ABC Bank Reduced KYC Processing Time by 80%',
-      excerpt: 'Learn how ABC Bank transformed their customer onboarding process using Regaurd\'s automated KYC solutions, achieving significant efficiency gains.',
-      author: 'Regaurd Team',
+      excerpt: 'Learn how ABC Bank transformed their customer onboarding process using Reguard\'s automated KYC solutions, achieving significant efficiency gains.',
+      author: 'Reguard Team',
       date: '2025-01-12',
       readTime: '12 min read',
       category: 'Banking Success Story'
@@ -100,13 +100,13 @@ export const ResourcesPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Resources - Blog, Case Studies, Developer Docs, Regulatory Updates | Regaurd</title>
+        <title>Resources - Blog, Case Studies, Developer Docs, Regulatory Updates | Reguard</title>
         <meta name="description" content="Comprehensive RegTech resources including industry blog, client case studies, developer documentation, and regulatory updates. Stay informed with the latest trends in compliance automation, identity verification, and financial technology." />
         <meta name="keywords" content="RegTech resources, compliance blog, case studies, developer documentation, API docs, regulatory updates, financial technology insights, KYC guides, AML compliance resources, fintech trends, banking compliance, insurance RegTech, cryptocurrency compliance, identity verification guides, fraud prevention resources, risk management insights, regulatory technology news, compliance automation guides" />
-        <link rel="canonical" href="https://regaurd.com/resources" />
+        <link rel="canonical" href="https://reguard.com/resources" />
         <meta property="og:title" content="RegTech Resources - Blog, Case Studies, Developer Docs" />
         <meta property="og:description" content="Comprehensive resources for RegTech professionals including industry insights, success stories, and technical documentation." />
-        <meta property="og:url" content="https://regaurd.com/resources" />
+        <meta property="og:url" content="https://reguard.com/resources" />
       </Helmet>
       <Header />
       

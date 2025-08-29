@@ -78,13 +78,13 @@ export const APICategoryPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>{currentCategory.title} - RegTech API Documentation | Regaurd</title>
+        <title>{currentCategory.title} - RegTech API Documentation | Reguard</title>
         <meta name="description" content={`${currentCategory.description} Explore ${currentCategory.totalAPIs} powerful ${category?.toUpperCase()} APIs with comprehensive documentation, code examples, and enterprise-grade security.`} />
         <meta name="keywords" content={`${currentCategory.keywords}, RegTech APIs, financial services APIs, compliance automation, regulatory technology, API documentation, enterprise APIs, fintech solutions, banking APIs, ${category} compliance`} />
-        <link rel="canonical" href={`https://regaurd.com/apis/${category}`} />
+        <link rel="canonical" href={`https://reguard.com/apis/${category}`} />
         <meta property="og:title" content={`${currentCategory.title} - RegTech API Documentation`} />
         <meta property="og:description" content={`${currentCategory.totalAPIs} powerful ${category?.toUpperCase()} APIs for regulatory compliance and identity verification.`} />
-        <meta property="og:url" content={`https://regaurd.com/apis/${category}`} />
+        <meta property="og:url" content={`https://reguard.com/apis/${category}`} />
       </Helmet>
       <Header />
       

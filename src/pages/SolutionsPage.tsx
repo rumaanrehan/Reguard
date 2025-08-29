@@ -23,13 +23,13 @@ export const SolutionsPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>RegTech Solutions - EmbedKYC, WatchDawg, Hear'O'Clock | Regaurd</title>
+        <title>RegTech Solutions - EmbedKYC, WatchDawg, Hear'O'Clock | Reguard</title>
         <meta name="description" content="Comprehensive RegTech solutions including EmbedKYC custom flow builder, WatchDawg 360° risk monitoring, and Hear'O'Clock reputation management for enterprises, brands, and government organizations." />
         <meta name="keywords" content="RegTech solutions, EmbedKYC, custom KYC flow builder, WatchDawg, risk monitoring platform, Hear'O'Clock, reputation management, brand monitoring, enterprise compliance solutions, government RegTech, drag and drop KYC, 360 degree monitoring, reputation intelligence, compliance automation platform, regulatory technology solutions, enterprise risk management, brand protection software, government compliance tools" />
-        <link rel="canonical" href="https://regaurd.com/solutions" />
+        <link rel="canonical" href="https://reguard.com/solutions" />
         <meta property="og:title" content="RegTech Solutions - EmbedKYC, WatchDawg, Hear'O'Clock" />
         <meta property="og:description" content="Comprehensive RegTech solutions for custom KYC flows, risk monitoring, and reputation management." />
-        <meta property="og:url" content="https://regaurd.com/solutions" />
+        <meta property="og:url" content="https://reguard.com/solutions" />
       </Helmet>
       <Header />
       

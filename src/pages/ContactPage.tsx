@@ -47,7 +47,7 @@ export const ContactPage: React.FC = () => {
       icon: Mail,
       title: 'Email Us',
       description: 'Send us an email and we\'ll respond within 24 hours',
-      contact: 'hello@regaurd.com',
+      contact: 'hello@reguard.com',
       action: 'Send Email'
     },
     {
@@ -78,21 +78,21 @@ export const ContactPage: React.FC = () => {
       city: 'Bangalore',
       address: '123 Tech Park, Electronic City, Bangalore 560100, India',
       phone: '+91 80 4567 8900',
-      email: 'bangalore@regaurd.com',
+      email: 'bangalore@reguard.com',
       isHeadquarters: true
     },
     {
       city: 'Mumbai',
       address: '456 Business District, Bandra Kurla Complex, Mumbai 400051, India',
       phone: '+91 22 6789 0123',
-      email: 'mumbai@regaurd.com',
+      email: 'mumbai@reguard.com',
       isHeadquarters: false
     },
     {
       city: 'Delhi',
       address: '789 Corporate Center, Connaught Place, New Delhi 110001, India',
       phone: '+91 11 2345 6789',
-      email: 'delhi@regaurd.com',
+      email: 'delhi@reguard.com',
       isHeadquarters: false
     }
   ];
@@ -100,13 +100,13 @@ export const ContactPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Contact ReGuard India - Get in Touch | Regaurd RegTech Solutions</title>
-        <meta name="description" content="Contact ReGuard India for RegTech solutions, API support, and business inquiries. Reach our offices in Bangalore, Mumbai, and Delhi. Email: hello@regaurd.com, Phone: +91 80 4567 8900. 24/7 support available." />
+        <title>Contact ReGuard India - Get in Touch | Reguard RegTech Solutions</title>
+        <meta name="description" content="Contact ReGuard India for RegTech solutions, API support, and business inquiries. Reach our offices in Bangalore, Mumbai, and Delhi. Email: hello@reguard.com, Phone: +91 80 4567 8900. 24/7 support available." />
         <meta name="keywords" content="contact ReGuard India, RegTech support, API help, business inquiries, Bangalore office, Mumbai office, Delhi office, customer support, technical support, sales contact, demo request, RegTech consultation, compliance support, identity verification support" />
-        <link rel="canonical" href="https://regaurd.com/contact" />
+        <link rel="canonical" href="https://reguard.com/contact" />
         <meta property="og:title" content="Contact ReGuard India - Get in Touch" />
         <meta property="og:description" content="Contact India's leading RegTech company for API support, business inquiries, and compliance solutions." />
-        <meta property="og:url" content="https://regaurd.com/contact" />
+        <meta property="og:url" content="https://reguard.com/contact" />
       </Helmet>
       <Header />
       
@@ -161,7 +161,7 @@ export const ContactPage: React.FC = () => {
                     if (method.title === 'Schedule Demo') {
                       openSignUpModal('demo');
                     } else if (method.title === 'Email Us') {
-                      window.location.href = 'mailto:hello@regaurd.com';
+                      window.location.href = 'mailto:hello@reguard.com';
                     } else if (method.title === 'Call Us') {
                       window.location.href = 'tel:+918045678900';
                     } else if (method.title === 'Live Chat') {
