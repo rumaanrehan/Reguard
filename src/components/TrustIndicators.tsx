@@ -35,7 +35,7 @@ export const TrustIndicators: React.FC = () => {
         <div className="text-center mb-12">
           <h2 className="font-gilroy text-3xl font-bold text-gray-900 mb-4">Trusted by Industry Leaders</h2>
           <p className="font-inter text-lg text-gray-600">
-            Join thousands of businesses that rely on Regaurd for secure identity verification
+            Join thousands of businesses that rely on Reguard for secure identity verification
           </p>
         </div>
 

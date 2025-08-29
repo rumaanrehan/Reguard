@@ -9,10 +9,10 @@ export const BlogPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>RegTech Blog - Industry Insights & Compliance Trends | Regaurd</title>
+        <title>RegTech Blog - Industry Insights & Compliance Trends | Reguard</title>
         <meta name="description" content="Stay updated with the latest RegTech insights, compliance trends, and financial technology innovations. Expert analysis on KYC automation, AML compliance, fraud prevention, and regulatory updates." />
         <meta name="keywords" content="RegTech blog, compliance trends, financial technology insights, KYC automation, AML compliance, fraud prevention, regulatory updates, fintech news, banking compliance, insurance RegTech, cryptocurrency regulation, identity verification trends, risk management insights, compliance automation, regulatory technology news" />
-        <link rel="canonical" href="https://regaurd.com/resources/blog" />
+        <link rel="canonical" href="https://reguard.com/resources/blog" />
       </Helmet>
       <Header />
       

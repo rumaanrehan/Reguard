@@ -9,10 +9,10 @@ export const CaseStudiesPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Case Studies - Client Success Stories | Regaurd RegTech Solutions</title>
-        <meta name="description" content="Discover how leading financial institutions have transformed their compliance operations with Regaurd's RegTech solutions. Real-world case studies showcasing improved efficiency, reduced costs, and enhanced compliance." />
+        <title>Case Studies - Client Success Stories | Reguard RegTech Solutions</title>
+        <meta name="description" content="Discover how leading financial institutions have transformed their compliance operations with Reguard's RegTech solutions. Real-world case studies showcasing improved efficiency, reduced costs, and enhanced compliance." />
         <meta name="keywords" content="RegTech case studies, client success stories, compliance automation results, KYC implementation, AML success stories, banking transformation, fintech case studies, insurance RegTech results, cryptocurrency compliance, identity verification success, fraud prevention case studies, regulatory compliance results" />
-        <link rel="canonical" href="https://regaurd.com/resources/case-studies" />
+        <link rel="canonical" href="https://reguard.com/resources/case-studies" />
       </Helmet>
       <Header />
       

@@ -211,13 +211,13 @@ export const AboutPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>About ReGuard India - Leading RegTech Company | Regaurd</title>
+        <title>About ReGuard India - Leading RegTech Company | Reguard</title>
         <meta name="description" content="Learn about ReGuard India's mission to revolutionize regulatory compliance in financial services. Founded in 2018, we serve 500+ clients with 30+ APIs for KYC, AML, and compliance automation across 15+ countries." />
         <meta name="keywords" content="About ReGuard India, RegTech company, regulatory technology, compliance automation, financial services technology, KYC solutions, AML compliance, identity verification, fraud prevention, regulatory compliance, fintech solutions, banking technology, insurance RegTech, company history, leadership team, RegTech innovation" />
-        <link rel="canonical" href="https://regaurd.com/about" />
+        <link rel="canonical" href="https://reguard.com/about" />
         <meta property="og:title" content="About ReGuard India - Leading RegTech Company" />
         <meta property="og:description" content="Revolutionizing regulatory compliance in financial services with 30+ APIs serving 500+ clients globally." />
-        <meta property="og:url" content="https://regaurd.com/about" />
+        <meta property="og:url" content="https://reguard.com/about" />
       </Helmet>
       <Header />
       

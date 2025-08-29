@@ -11,7 +11,7 @@ export const CTA: React.FC<CTAProps> = ({ onOpenSignUp }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="font-gilroy text-3xl sm:text-4xl font-bold mb-4">
-            Ready to Integrate Regaurd APIs?
+            Ready to Integrate Reguard APIs?
           </h2>
           <p className="font-inter text-xl text-red-100 max-w-2xl mx-auto">
             Get started with our comprehensive APIs in minutes. Choose from flexible plans 

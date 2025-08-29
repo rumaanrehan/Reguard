@@ -81,13 +81,13 @@ export const IndustriesPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Industries We Serve - Banking, Fintech, Insurance, Crypto | Regaurd RegTech Solutions</title>
+        <title>Industries We Serve - Banking, Fintech, Insurance, Crypto | Reguard RegTech Solutions</title>
         <meta name="description" content="Specialized RegTech solutions for Banking & NBFC, Fintech & Payments, Insurance & InsurTech, Mutual Funds & AMCs, and Cryptocurrency Exchanges. Industry-specific compliance automation, KYC verification, AML screening, and fraud prevention solutions." />
         <meta name="keywords" content="RegTech industries, banking compliance solutions, fintech KYC automation, insurance fraud detection, mutual fund compliance, cryptocurrency exchange AML, NBFC regulatory technology, payment processor verification, InsurTech solutions, AMC compliance automation, digital asset compliance, financial services RegTech, industry-specific compliance, sector-wise RegTech solutions, banking RegTech, fintech compliance, insurance RegTech, crypto compliance solutions" />
-        <link rel="canonical" href="https://regaurd.com/industries" />
+        <link rel="canonical" href="https://reguard.com/industries" />
         <meta property="og:title" content="Industries We Serve - Specialized RegTech Solutions" />
         <meta property="og:description" content="Industry-specific RegTech solutions for Banking, Fintech, Insurance, Mutual Funds, and Cryptocurrency sectors." />
-        <meta property="og:url" content="https://regaurd.com/industries" />
+        <meta property="og:url" content="https://reguard.com/industries" />
       </Helmet>
       <Header />
       
@@ -211,7 +211,7 @@ export const IndustriesPage: React.FC = () => {
             Ready to Transform Your Industry Compliance?
           </h2>
           <p className="font-inter text-xl text-red-100 max-w-3xl mx-auto mb-8">
-            Join industry leaders who trust Regaurd for their regulatory technology needs. 
+            Join industry leaders who trust Reguard for their regulatory technology needs. 
             Get started with our specialized solutions today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

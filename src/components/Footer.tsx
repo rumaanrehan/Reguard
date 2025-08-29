@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Logo } from './Logo';
-import { Github, Twitter, Linkedin, Mail } from 'lucide-react';
+import { Github, Twitter, Linkedin, Instagram, Facebook, Mail, Factory } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -15,16 +15,19 @@ export const Footer: React.FC = () => {
               and compliance APIs for modern businesses.
             </p>
             <div className="flex space-x-4 mt-6">
-              <a href="https://twitter.com/regaurd" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://x.com/reguard_in" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <Twitter size={20} />
               </a>
-              <a href="https://linkedin.com/company/regaurd" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/company/reguard-in/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="https://github.com/regaurd" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                <Github size={20} />
+              <a href="https://www.instagram.com/reguard.in/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                <Instagram size={20} />
               </a>
-              <a href="mailto:hello@regaurd.com" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.facebook.com/reguard.in/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                <Facebook size={20} />
+              </a>
+              <a href="mailto:help@reguard.in" className="text-gray-400 hover:text-white transition-colors">
                 <Mail size={20} />
               </a>
             </div>
@@ -44,22 +47,21 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link to="/resources/developer-docs" className="text-gray-400 hover:text-white transition-colors">Documentation</Link></li>
-              <li><Link to="/resources/developer-docs" className="text-gray-400 hover:text-white transition-colors">API Reference</Link></li>
-              <li><Link to="/resources/developer-docs" className="text-gray-400 hover:text-white transition-colors">Guides & Tutorials</Link></li>
-              <li><a href="https://status.regaurd.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">Status Page</a></li>
               <li><Link to="/resources/blog" className="text-gray-400 hover:text-white transition-colors">Blog</Link></li>
+              <li><Link to="/resources/case-studies" className="text-gray-400 hover:text-white transition-colors">Case Studies</Link></li>
+              <li><Link to="/resources/developer-docs" className="text-gray-400 hover:text-white transition-colors">Developer Docs</Link></li>
+              <li><Link to="/resources/regulatory-updates" className="text-gray-400 hover:text-white transition-colors">Regulatory Updates</Link></li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Careers</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+              <li><Link to="/about" className="text-gray-400 hover:text-white transition-colors">About Us</Link></li>
+              <li><Link to="/careers" className="text-gray-400 hover:text-white transition-colors">Careers</Link></li>
+              <li><Link to="/privacy-policy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</Link></li>
+              <li><Link to="/terms-of-services" className="text-gray-400 hover:text-white transition-colors">Terms of Service</Link></li>
+              <li><Link to="/contact" className="text-gray-400 hover:text-white transition-colors">Contact</Link></li>
             </ul>
           </div>
         </div>
@@ -67,7 +69,7 @@ export const Footer: React.FC = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2025 Regaurd. All rights reserved.
+              © 2025 Reguard. All rights reserved.
             </p>
             <div className="flex items-center space-x-6 mt-4 md:mt-0">
               <span className="text-gray-400 text-sm">SOC 2 Compliant</span>

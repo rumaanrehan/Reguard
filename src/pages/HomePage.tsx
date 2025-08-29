@@ -33,13 +33,13 @@ export const HomePage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Regaurd - Leading RegTech Identity Verification APIs | KYC, KYB, AML Compliance</title>
-        <meta name="description" content="Regaurd offers 30+ powerful RegTech APIs for identity verification, KYC compliance, KYB verification, AML screening, fraud detection, and due diligence. Trusted by 500K+ businesses with 99.9% uptime SLA and bank-grade security." />
+        <title>Reguard - Leading RegTech Identity Verification APIs | KYC, KYB, AML Compliance</title>
+        <meta name="description" content="Reguard offers 30+ powerful RegTech APIs for identity verification, KYC compliance, KYB verification, AML screening, fraud detection, and due diligence. Trusted by 500K+ businesses with 99.9% uptime SLA and bank-grade security." />
         <meta name="keywords" content="RegTech APIs, KYC verification API, KYB compliance, AML screening, identity verification, document verification, facial recognition API, sanctions screening, PEP screening, fraud detection API, due diligence automation, compliance APIs, financial services technology, banking APIs, fintech solutions, customer onboarding APIs, digital identity verification, biometric authentication, OCR document processing, anti-money laundering APIs, know your customer APIs, know your business verification, transaction monitoring APIs, risk management APIs, regulatory compliance automation" />
-        <link rel="canonical" href="https://regaurd.com" />
-        <meta property="og:title" content="Regaurd - Leading RegTech Identity Verification APIs" />
+        <link rel="canonical" href="https://reguard.com" />
+        <meta property="og:title" content="Reguard - Leading RegTech Identity Verification APIs" />
         <meta property="og:description" content="30+ powerful APIs for KYC, KYB, AML compliance. Trusted by 500K+ businesses worldwide." />
-        <meta property="og:url" content="https://regaurd.com" />
+        <meta property="og:url" content="https://reguard.com" />
       </Helmet>
       <Header />
       <Hero onOpenSignUp={openSignUpModal} onScrollToAPIs={scrollToAPIDiscovery} />

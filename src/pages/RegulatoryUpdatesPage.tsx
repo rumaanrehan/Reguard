@@ -9,10 +9,10 @@ export const RegulatoryUpdatesPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Regulatory Updates - Latest Compliance News | Regaurd RegTech</title>
+        <title>Regulatory Updates - Latest Compliance News | Reguard RegTech</title>
         <meta name="description" content="Stay informed with the latest regulatory updates, compliance requirements, and industry changes affecting financial services. Expert analysis on RBI guidelines, SEBI regulations, and global compliance trends." />
         <meta name="keywords" content="regulatory updates, compliance news, RBI guidelines, SEBI regulations, financial regulations, banking compliance updates, insurance regulations, cryptocurrency regulations, AML updates, KYC requirements, regulatory changes, compliance requirements, financial services regulations" />
-        <link rel="canonical" href="https://regaurd.com/resources/regulatory-updates" />
+        <link rel="canonical" href="https://reguard.com/resources/regulatory-updates" />
       </Helmet>
       <Header />
       

@@ -73,7 +73,7 @@ export const apiDatabase: Record<string, APIData> = {
       }
     ],
     codeExamples: {
-      curl: `curl -X POST "https://api.regaurd.com/v1/kyc/document/verify" \\
+      curl: `curl -X POST "https://api.reguard.com/v1/kyc/document/verify" \\
   -H "Authorization: Bearer YOUR_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{
@@ -81,7 +81,7 @@ export const apiDatabase: Record<string, APIData> = {
     "document_type": "passport",
     "country": "US"
   }'`,
-      javascript: `const response = await fetch('https://api.regaurd.com/v1/kyc/document/verify', {
+      javascript: `const response = await fetch('https://api.reguard.com/v1/kyc/document/verify', {
   method: 'POST',
   headers: {
     'Authorization': 'Bearer YOUR_API_KEY',
@@ -97,7 +97,7 @@ export const apiDatabase: Record<string, APIData> = {
 const result = await response.json();`,
       python: `import requests
 
-url = "https://api.regaurd.com/v1/kyc/document/verify"
+url = "https://api.reguard.com/v1/kyc/document/verify"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json"
@@ -158,7 +158,7 @@ response = requests.post(url, headers=headers, json=data)`
       }
     ],
     codeExamples: {
-      curl: `curl -X POST "https://api.regaurd.com/v1/kyc/face/match" \\
+      curl: `curl -X POST "https://api.reguard.com/v1/kyc/face/match" \\
   -H "Authorization: Bearer YOUR_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{
@@ -166,7 +166,7 @@ response = requests.post(url, headers=headers, json=data)`
     "document_image": "base64_encoded_document_photo",
     "liveness_check": true
   }'`,
-      javascript: `const response = await fetch('https://api.regaurd.com/v1/kyc/face/match', {
+      javascript: `const response = await fetch('https://api.reguard.com/v1/kyc/face/match', {
   method: 'POST',
   headers: {
     'Authorization': 'Bearer YOUR_API_KEY',
@@ -182,7 +182,7 @@ response = requests.post(url, headers=headers, json=data)`
 const result = await response.json();`,
       python: `import requests
 
-url = "https://api.regaurd.com/v1/kyc/face/match"
+url = "https://api.reguard.com/v1/kyc/face/match"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json"
@@ -243,7 +243,7 @@ response = requests.post(url, headers=headers, json=data)`
       }
     ],
     codeExamples: {
-      curl: `curl -X POST "https://api.regaurd.com/v1/kyc/address/verify" \\
+      curl: `curl -X POST "https://api.reguard.com/v1/kyc/address/verify" \\
   -H "Authorization: Bearer YOUR_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{
@@ -253,7 +253,7 @@ response = requests.post(url, headers=headers, json=data)`
     "postal_code": "10001",
     "country": "US"
   }'`,
-      javascript: `const response = await fetch('https://api.regaurd.com/v1/kyc/address/verify', {
+      javascript: `const response = await fetch('https://api.reguard.com/v1/kyc/address/verify', {
   method: 'POST',
   headers: {
     'Authorization': 'Bearer YOUR_API_KEY',
@@ -271,7 +271,7 @@ response = requests.post(url, headers=headers, json=data)`
 const result = await response.json();`,
       python: `import requests
 
-url = "https://api.regaurd.com/v1/kyc/address/verify"
+url = "https://api.reguard.com/v1/kyc/address/verify"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json"
@@ -334,14 +334,14 @@ response = requests.post(url, headers=headers, json=data)`
       }
     ],
     codeExamples: {
-      curl: `curl -X POST "https://api.regaurd.com/v1/kyc/phone/validate" \\
+      curl: `curl -X POST "https://api.reguard.com/v1/kyc/phone/validate" \\
   -H "Authorization: Bearer YOUR_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{
     "phone_number": "+1234567890",
     "country_code": "US"
   }'`,
-      javascript: `const response = await fetch('https://api.regaurd.com/v1/kyc/phone/validate', {
+      javascript: `const response = await fetch('https://api.reguard.com/v1/kyc/phone/validate', {
   method: 'POST',
   headers: {
     'Authorization': 'Bearer YOUR_API_KEY',
@@ -356,7 +356,7 @@ response = requests.post(url, headers=headers, json=data)`
 const result = await response.json();`,
       python: `import requests
 
-url = "https://api.regaurd.com/v1/kyc/phone/validate"
+url = "https://api.reguard.com/v1/kyc/phone/validate"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json"
@@ -416,13 +416,13 @@ response = requests.post(url, headers=headers, json=data)`
       }
     ],
     codeExamples: {
-      curl: `curl -X POST "https://api.regaurd.com/v1/kyc/email/verify" \\
+      curl: `curl -X POST "https://api.reguard.com/v1/kyc/email/verify" \\
   -H "Authorization: Bearer YOUR_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{
     "email": "user@example.com"
   }'`,
-      javascript: `const response = await fetch('https://api.regaurd.com/v1/kyc/email/verify', {
+      javascript: `const response = await fetch('https://api.reguard.com/v1/kyc/email/verify', {
   method: 'POST',
   headers: {
     'Authorization': 'Bearer YOUR_API_KEY',
@@ -436,7 +436,7 @@ response = requests.post(url, headers=headers, json=data)`
 const result = await response.json();`,
       python: `import requests
 
-url = "https://api.regaurd.com/v1/kyc/email/verify"
+url = "https://api.reguard.com/v1/kyc/email/verify"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json"
@@ -495,7 +495,7 @@ response = requests.post(url, headers=headers, json=data)`
       }
     ],
     codeExamples: {
-      curl: `curl -X POST "https://api.regaurd.com/v1/kyc/age/verify" \\
+      curl: `curl -X POST "https://api.reguard.com/v1/kyc/age/verify" \\
   -H "Authorization: Bearer YOUR_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{
@@ -503,7 +503,7 @@ response = requests.post(url, headers=headers, json=data)`
     "minimum_age": 21,
     "verification_method": "document"
   }'`,
-      javascript: `const response = await fetch('https://api.regaurd.com/v1/kyc/age/verify', {
+      javascript: `const response = await fetch('https://api.reguard.com/v1/kyc/age/verify', {
   method: 'POST',
   headers: {
     'Authorization': 'Bearer YOUR_API_KEY',
@@ -519,7 +519,7 @@ response = requests.post(url, headers=headers, json=data)`
 const result = await response.json();`,
       python: `import requests
 
-url = "https://api.regaurd.com/v1/kyc/age/verify"
+url = "https://api.reguard.com/v1/kyc/age/verify"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json"
@@ -583,7 +583,7 @@ response = requests.post(url, headers=headers, json=data)`
       }
     ],
     codeExamples: {
-      curl: `curl -X POST "https://api.regaurd.com/v1/kyb/company/lookup" \\
+      curl: `curl -X POST "https://api.reguard.com/v1/kyb/company/lookup" \\
   -H "Authorization: Bearer YOUR_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{
@@ -591,7 +591,7 @@ response = requests.post(url, headers=headers, json=data)`
     "registration_number": "12345678",
     "jurisdiction": "US"
   }'`,
-      javascript: `const response = await fetch('https://api.regaurd.com/v1/kyb/company/lookup', {
+      javascript: `const response = await fetch('https://api.reguard.com/v1/kyb/company/lookup', {
   method: 'POST',
   headers: {
     'Authorization': 'Bearer YOUR_API_KEY',
@@ -607,7 +607,7 @@ response = requests.post(url, headers=headers, json=data)`
 const result = await response.json();`,
       python: `import requests
 
-url = "https://api.regaurd.com/v1/kyb/company/lookup"
+url = "https://api.reguard.com/v1/kyb/company/lookup"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json"
@@ -668,7 +668,7 @@ response = requests.post(url, headers=headers, json=data)`
       }
     ],
     codeExamples: {
-      curl: `curl -X POST "https://api.regaurd.com/v1/kyb/ubo/analyze" \\
+      curl: `curl -X POST "https://api.reguard.com/v1/kyb/ubo/analyze" \\
   -H "Authorization: Bearer YOUR_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{
@@ -676,7 +676,7 @@ response = requests.post(url, headers=headers, json=data)`
     "jurisdiction": "US",
     "threshold_percentage": 25
   }'`,
-      javascript: `const response = await fetch('https://api.regaurd.com/v1/kyb/ubo/analyze', {
+      javascript: `const response = await fetch('https://api.reguard.com/v1/kyb/ubo/analyze', {
   method: 'POST',
   headers: {
     'Authorization': 'Bearer YOUR_API_KEY',
@@ -692,7 +692,7 @@ response = requests.post(url, headers=headers, json=data)`
 const result = await response.json();`,
       python: `import requests
 
-url = "https://api.regaurd.com/v1/kyb/ubo/analyze"
+url = "https://api.reguard.com/v1/kyb/ubo/analyze"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json"
@@ -756,7 +756,7 @@ response = requests.post(url, headers=headers, json=data)`
       }
     ],
     codeExamples: {
-      curl: `curl -X POST "https://api.regaurd.com/v1/aml/sanctions/screen" \\
+      curl: `curl -X POST "https://api.reguard.com/v1/aml/sanctions/screen" \\
   -H "Authorization: Bearer YOUR_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{
@@ -765,7 +765,7 @@ response = requests.post(url, headers=headers, json=data)`
     "country": "US",
     "entity_type": "individual"
   }'`,
-      javascript: `const response = await fetch('https://api.regaurd.com/v1/aml/sanctions/screen', {
+      javascript: `const response = await fetch('https://api.reguard.com/v1/aml/sanctions/screen', {
   method: 'POST',
   headers: {
     'Authorization': 'Bearer YOUR_API_KEY',
@@ -782,7 +782,7 @@ response = requests.post(url, headers=headers, json=data)`
 const result = await response.json();`,
       python: `import requests
 
-url = "https://api.regaurd.com/v1/aml/sanctions/screen"
+url = "https://api.reguard.com/v1/aml/sanctions/screen"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json"
@@ -844,7 +844,7 @@ response = requests.post(url, headers=headers, json=data)`
       }
     ],
     codeExamples: {
-      curl: `curl -X POST "https://api.regaurd.com/v1/aml/pep/screen" \\
+      curl: `curl -X POST "https://api.reguard.com/v1/aml/pep/screen" \\
   -H "Authorization: Bearer YOUR_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{
@@ -853,7 +853,7 @@ response = requests.post(url, headers=headers, json=data)`
     "nationality": "US",
     "position": "Government Official"
   }'`,
-      javascript: `const response = await fetch('https://api.regaurd.com/v1/aml/pep/screen', {
+      javascript: `const response = await fetch('https://api.reguard.com/v1/aml/pep/screen', {
   method: 'POST',
   headers: {
     'Authorization': 'Bearer YOUR_API_KEY',
@@ -870,7 +870,7 @@ response = requests.post(url, headers=headers, json=data)`
 const result = await response.json();`,
       python: `import requests
 
-url = "https://api.regaurd.com/v1/aml/pep/screen"
+url = "https://api.reguard.com/v1/aml/pep/screen"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json"
