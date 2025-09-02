@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Sparkles, Shield, Clock, ExternalLink } from 'lucide-react';
+import { ArrowRight, Sparkles, Shield, Clock, ExternalLink, Gavel, AlertTriangle, TrendingUp } from 'lucide-react';
 
 interface SolutionsProps {
   onOpenSignUp: (type: 'signup' | 'demo' | 'trial') => void;
