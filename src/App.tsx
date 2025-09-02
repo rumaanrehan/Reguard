@@ -17,6 +17,7 @@ import { CareersPage } from './pages/CareersPage';
 import { ContactPage } from './pages/ContactPage';
 import { PrivacyPolicyPage } from './pages/PrivacyPolicyPage';
 import { TermsOfServicesPage } from './pages/TermsOfServicesPage';
+import { PostOnboardingCompliancePage } from './pages/PostOnboardingCompliancePage';
 import { ScrollToTop } from './components/ScrollToTop';
 
 
@@ -43,6 +44,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
         <Route path="/terms-of-services" element={<TermsOfServicesPage />} />
+        <Route path="/solutions/post-onboarding-compliance" element={<PostOnboardingCompliancePage />} />
       </Routes>
     </div>
   );
