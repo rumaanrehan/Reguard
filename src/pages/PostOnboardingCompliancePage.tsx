@@ -126,7 +126,6 @@ export const PostOnboardingCompliancePage: React.FC = () => {
     'PMLA Compliance',
     'FEMA Regulations',
     'SEBI Regulations',
-    'IRDAI Guidelines',
     'Sanctions Screening',
     'FIU-IND Reporting',
     'Negative Profile Checks',
@@ -135,9 +134,6 @@ export const PostOnboardingCompliancePage: React.FC = () => {
     'Adverse Media Monitoring',
     'NPCI Standards',
     'Companies Act 2013',
-    'Basel III (India)',
-    'UPI Guidelines',
-    'Digital Lending Guidelines'
   ];
 
   const stats = [
