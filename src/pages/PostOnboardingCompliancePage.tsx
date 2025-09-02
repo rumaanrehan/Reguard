@@ -21,9 +21,7 @@ import {
   BarChart3,
   Search,
   Bell,
-  Database,
-  Building2,
-  CreditCard
+  Database
 } from 'lucide-react';
 
 export const PostOnboardingCompliancePage: React.FC = () => {
@@ -353,60 +351,25 @@ export const PostOnboardingCompliancePage: React.FC = () => {
             </h2>
             <p className="font-inter text-xl text-gray-600 max-w-3xl mx-auto">
               Tailored solutions for different financial sectors with comprehensive 
-              compliance requirements and risk management needs across major industries.
+              compliance requirements and risk management needs across major industry verticals.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
             {useCases.map((useCase, index) => (
-              <div key={index} className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
+              <div key={index} className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 group">
                 <div className="flex items-center space-x-4 mb-6">
-                  <div className="w-12 h-12 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-lg flex items-center justify-center">
+                  <div className="w-14 h-14 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <useCase.icon size={24} className="text-white" />
                   </div>
                   <div>
-                    <h3 className="font-gilroy text-xl font-bold text-gray-900">{useCase.title}</h3>
-                    <span className="text-sm text-indigo-600 font-semibold">{useCase.metrics}</span>
+                    <h3 className="font-gilroy text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors">{useCase.title}</h3>
+                    <span className="text-sm text-indigo-600 font-semibold bg-indigo-50 px-2 py-1 rounded-full">{useCase.metrics}</span>
                   </div>
                 </div>
-                <p className="font-inter text-gray-600 leading-relaxed">{useCase.description}</p>
+                <p className="font-inter text-gray-600 leading-relaxed text-sm">{useCase.description}</p>
               </div>
             ))}
-          </div>
-          
-          {/* Additional Major Sectors */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-xl border border-blue-100 text-center hover:shadow-lg transition-all duration-300">
-              <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <Building2 size={20} className="text-white" />
-              </div>
-              <h3 className="font-semibold text-gray-900 text-sm mb-2">Cooperative Banks</h3>
-              <p className="text-xs text-gray-600">RBI compliance for cooperative banking sector</p>
-            </div>
-            
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-6 rounded-xl border border-green-100 text-center hover:shadow-lg transition-all duration-300">
-              <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <TrendingUp size={20} className="text-white" />
-              </div>
-              <h3 className="font-semibold text-gray-900 text-sm mb-2">Microfinance</h3>
-              <p className="text-xs text-gray-600">PMLA compliance for MFI operations</p>
-            </div>
-            
-            <div className="bg-gradient-to-br from-purple-50 to-violet-50 p-6 rounded-xl border border-purple-100 text-center hover:shadow-lg transition-all duration-300">
-              <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-violet-600 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <CreditCard size={20} className="text-white" />
-              </div>
-              <h3 className="font-semibold text-gray-900 text-sm mb-2">Credit Bureaus</h3>
-              <p className="text-xs text-gray-600">Data protection and regulatory compliance</p>
-            </div>
-            
-            <div className="bg-gradient-to-br from-orange-50 to-red-50 p-6 rounded-xl border border-orange-100 text-center hover:shadow-lg transition-all duration-300">
-              <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-600 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <Globe size={20} className="text-white" />
-              </div>
-              <h3 className="font-semibold text-gray-900 text-sm mb-2">Foreign Banks</h3>
-              <p className="text-xs text-gray-600">Cross-border compliance and FEMA adherence</p>
-            </div>
           </div>
         </div>
       </section>
@@ -420,17 +383,17 @@ export const PostOnboardingCompliancePage: React.FC = () => {
             </h2>
             <p className="font-inter text-xl text-gray-600 max-w-3xl mx-auto">
               Comprehensive coverage of major regulatory frameworks and compliance requirements 
-              across RBI, SEBI, IRDAI, and other financial sector regulators.
+              across RBI, SEBI, and other financial sector regulators.
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
             {complianceFrameworks.map((framework, index) => (
-              <div key={index} className="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-xl border border-indigo-100 text-center hover:shadow-lg transition-all duration-300">
-                <div className="w-12 h-12 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-lg flex items-center justify-center mx-auto mb-4">
+              <div key={index} className="bg-gradient-to-br from-indigo-50 to-purple-50 p-4 rounded-xl border border-indigo-100 text-center hover:shadow-lg hover:scale-105 transition-all duration-300 group">
+                <div className="w-10 h-10 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
                   <Shield size={20} className="text-white" />
                 </div>
-                <h3 className="font-semibold text-gray-900 text-sm">{framework}</h3>
+                <h3 className="font-semibold text-gray-900 text-xs leading-tight">{framework}</h3>
               </div>
             ))}
           </div>
