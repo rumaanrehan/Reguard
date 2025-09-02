@@ -41,117 +41,117 @@ export const PostOnboardingCompliancePage: React.FC = () => {
   const keyFeatures = [
     {
       icon: Eye,
-      title: 'Continuous Customer Monitoring',
-      description: 'Real-time surveillance of customer behavior, transaction patterns, and risk profile changes with automated alerts for suspicious activities.'
+      title: 'Continuous Customer Monitoring for India',
+      description: 'Real-time surveillance of customer behavior, transaction patterns, and risk profile changes with automated alerts for suspicious activities as per RBI guidelines and PMLA requirements.'
     },
     {
       icon: TrendingUp,
-      title: 'Dynamic Risk Scoring',
-      description: 'AI-powered risk assessment that adapts to changing customer circumstances, regulatory updates, and emerging threat patterns.'
+      title: 'RBI-Compliant Dynamic Risk Scoring',
+      description: 'AI-powered risk assessment that adapts to changing customer circumstances, RBI regulatory updates, and emerging threat patterns specific to the Indian financial landscape.'
     },
     {
       icon: AlertTriangle,
-      title: 'Automated Compliance Alerts',
-      description: 'Intelligent notification system that flags potential compliance violations, regulatory breaches, and required actions in real-time.'
+      title: 'Automated RBI Compliance Alerts',
+      description: 'Intelligent notification system that flags potential RBI compliance violations, PMLA breaches, and required regulatory actions in real-time for Indian financial institutions.'
     },
     {
       icon: FileText,
-      title: 'Regulatory Reporting Automation',
-      description: 'Streamlined generation of SAR, CTR, and other regulatory reports with automated data collection and submission workflows.'
+      title: 'Indian Regulatory Reporting Automation',
+      description: 'Streamlined generation of STR (Suspicious Transaction Reports), CTR, FIU-IND reports, and other RBI regulatory reports with automated data collection and submission workflows.'
     },
     {
       icon: Database,
-      title: 'Comprehensive Audit Trails',
-      description: 'Complete documentation of all compliance activities, decisions, and customer interactions for regulatory examination readiness.'
+      title: 'RBI Audit-Ready Documentation',
+      description: 'Complete documentation of all compliance activities, decisions, and customer interactions for RBI examination readiness and PMLA audit requirements.'
     },
     {
       icon: Search,
-      title: 'Advanced Analytics Dashboard',
-      description: 'Executive-level insights into compliance performance, risk trends, and operational efficiency with customizable reporting.'
+      title: 'India-Specific Analytics Dashboard',
+      description: 'Executive-level insights into RBI compliance performance, Indian market risk trends, and operational efficiency with customizable reporting for Indian financial institutions.'
     }
   ];
 
   const benefits = [
-    'Reduce compliance operational costs by up to 65% through intelligent automation',
-    'Achieve 99.7% accuracy in suspicious activity detection with machine learning',
-    'Decrease false positive alerts by 80% with advanced behavioral analytics',
-    'Ensure 100% regulatory compliance with automated monitoring and reporting',
-    'Improve customer retention by 25% through proactive risk management',
-    'Reduce manual compliance workload by 90% with intelligent workflows',
-    'Enable real-time regulatory examination readiness with comprehensive documentation',
-    'Scale compliance operations without proportional increase in staffing costs'
+    'Reduce RBI compliance operational costs by up to 65% through intelligent automation',
+    'Achieve 99.7% accuracy in suspicious activity detection as per PMLA requirements',
+    'Decrease false positive alerts by 80% with advanced behavioral analytics tuned for Indian markets',
+    'Ensure 100% RBI, PMLA, and FEMA compliance with automated monitoring and reporting',
+    'Improve customer retention by 25% through proactive risk management in Indian banking',
+    'Reduce manual compliance workload by 90% with RBI-compliant intelligent workflows',
+    'Enable real-time RBI examination readiness with comprehensive audit documentation',
+    'Scale compliance operations across Indian branches without proportional staffing increase'
   ];
 
   const useCases = [
     {
       icon: Shield,
-      title: 'Banking & Financial Services',
-      description: 'Continuous monitoring of account holders for AML compliance, transaction monitoring, and regulatory reporting automation.',
-      metrics: '500+ Banks Trust Us'
+      title: 'Indian Banks & NBFCs',
+      description: 'Continuous monitoring of account holders for PMLA compliance, transaction monitoring as per RBI guidelines, and automated regulatory reporting to FIU-IND.',
+      metrics: '200+ Indian Banks Trust Us'
     },
     {
       icon: TrendingUp,
-      title: 'Investment Management',
-      description: 'Ongoing due diligence for investment clients, beneficial ownership tracking, and regulatory compliance monitoring.',
-      metrics: '200+ Investment Firms'
+      title: 'Indian Investment Management',
+      description: 'Ongoing due diligence for investment clients, beneficial ownership tracking as per Companies Act, and SEBI compliance monitoring for Indian markets.',
+      metrics: '150+ Indian Investment Firms'
     },
     {
       icon: Globe,
-      title: 'Cryptocurrency Exchanges',
-      description: 'Real-time monitoring of crypto users, transaction analysis, and compliance with evolving digital asset regulations.',
-      metrics: '150+ Crypto Platforms'
+      title: 'Indian Cryptocurrency Platforms',
+      description: 'Real-time monitoring of crypto users, transaction analysis, and compliance with evolving Indian digital asset regulations and RBI guidelines.',
+      metrics: '50+ Indian Crypto Platforms'
     },
     {
       icon: Users,
-      title: 'Insurance Companies',
-      description: 'Continuous policy holder monitoring, claims fraud detection, and regulatory compliance for insurance operations.',
-      metrics: '300+ Insurance Providers'
+      title: 'Indian Insurance Companies',
+      description: 'Continuous policy holder monitoring, claims fraud detection, and IRDAI compliance for Indian insurance operations with automated regulatory reporting.',
+      metrics: '100+ Indian Insurance Providers'
     },
     {
       icon: BarChart3,
-      title: 'Fintech & Payments',
-      description: 'Ongoing customer risk assessment, payment fraud monitoring, and compliance with payment service regulations.',
-      metrics: '400+ Fintech Companies'
+      title: 'Indian Fintech & Payment Companies',
+      description: 'Ongoing customer risk assessment, payment fraud monitoring, and compliance with RBI payment service regulations and NPCI guidelines.',
+      metrics: '300+ Indian Fintech Companies'
     },
     {
       icon: FileText,
-      title: 'Wealth Management',
-      description: 'Continuous client monitoring, suitability assessments, and compliance with wealth management regulations.',
-      metrics: '100+ Wealth Managers'
+      title: 'Indian Wealth Management',
+      description: 'Continuous client monitoring, suitability assessments, and compliance with SEBI wealth management regulations and Indian tax compliance requirements.',
+      metrics: '80+ Indian Wealth Managers'
     }
   ];
 
   const complianceFrameworks = [
-    'BSA/AML Compliance',
-    'OFAC Sanctions',
-    'USA PATRIOT Act',
-    'Dodd-Frank Act',
-    'MiFID II',
-    'GDPR',
-    'PCI DSS',
-    'SOX Compliance',
-    'Basel III',
-    'CCAR',
-    'FATCA',
-    'CRS'
+    'RBI Guidelines',
+    'PMLA Compliance',
+    'FEMA Regulations',
+    'Companies Act 2013',
+    'SEBI Regulations',
+    'IRDAI Guidelines',
+    'NPCI Standards',
+    'FIU-IND Reporting',
+    'Basel III (India)',
+    'KYC Norms (India)',
+    'FATCA (India)',
+    'CRS (India)'
   ];
 
   const stats = [
-    { value: '1,500+', label: 'Financial Institutions', description: 'Trust our compliance solutions' },
-    { value: '99.7%', label: 'Detection Accuracy', description: 'In suspicious activity identification' },
-    { value: '65%', label: 'Cost Reduction', description: 'In compliance operations' },
-    { value: '24/7', label: 'Monitoring', description: 'Continuous compliance surveillance' }
+    { value: '500+', label: 'Indian Financial Institutions', description: 'Trust our compliance solutions' },
+    { value: '99.7%', label: 'Detection Accuracy', description: 'In suspicious activity identification per PMLA' },
+    { value: '65%', label: 'Cost Reduction', description: 'In RBI compliance operations' },
+    { value: '24/7', label: 'Monitoring', description: 'Continuous RBI compliance surveillance' }
   ];
 
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Post Onboarding Compliance - Continuous Customer Monitoring | Reguard</title>
-        <meta name="description" content="Advanced post-onboarding compliance solution for continuous customer monitoring, dynamic risk assessment, and automated regulatory reporting. Reduce compliance costs by 65% with AI-powered surveillance and real-time alerts." />
-        <meta name="keywords" content="post onboarding compliance, continuous customer monitoring, ongoing due diligence, AML monitoring, transaction monitoring, regulatory compliance automation, suspicious activity detection, compliance surveillance, risk management, financial crime prevention, regulatory reporting, BSA compliance, OFAC screening, customer lifecycle management" />
+        <title>Post Onboarding Compliance India - Continuous Customer Monitoring | Reguard</title>
+        <meta name="description" content="Advanced post-onboarding compliance solution for Indian financial institutions. Continuous customer monitoring, RBI compliance, and automated regulatory reporting. Reduce compliance costs by 65% with AI-powered surveillance." />
+        <meta name="keywords" content="post onboarding compliance India, continuous customer monitoring India, RBI compliance, PMLA monitoring, ongoing due diligence India, AML monitoring India, transaction monitoring India, regulatory compliance automation India, suspicious activity detection, compliance surveillance, financial crime prevention India, regulatory reporting India, KYC India, customer lifecycle management India" />
         <link rel="canonical" href="https://reguard.com/solutions/post-onboarding-compliance" />
-        <meta property="og:title" content="Post Onboarding Compliance - Continuous Customer Monitoring" />
-        <meta property="og:description" content="AI-powered post-onboarding compliance solution with continuous monitoring, dynamic risk scoring, and automated regulatory reporting." />
+        <meta property="og:title" content="Post Onboarding Compliance India - Continuous Customer Monitoring" />
+        <meta property="og:description" content="AI-powered post-onboarding compliance solution for Indian financial institutions with RBI compliance, continuous monitoring, and automated regulatory reporting." />
         <meta property="og:url" content="https://reguard.com/solutions/post-onboarding-compliance" />
       </Helmet>
       <Header />
@@ -180,14 +180,14 @@ export const PostOnboardingCompliancePage: React.FC = () => {
               <h1 className="font-gilroy text-4xl lg:text-6xl font-bold mb-6 leading-tight">
                 Post Onboarding
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">
-                  Compliance
+                  Compliance for India
                 </span>
               </h1>
               
               <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                Continuous customer monitoring and compliance surveillance that goes beyond initial onboarding. 
-                Our AI-powered platform ensures ongoing regulatory adherence, detects emerging risks, and 
-                automates compliance workflows throughout the entire customer lifecycle.
+                Continuous customer monitoring and compliance surveillance specifically designed for Indian financial institutions. 
+                Our AI-powered platform ensures ongoing RBI, PMLA, and FEMA compliance, detects emerging risks, and 
+                automates regulatory workflows throughout the entire customer lifecycle in India.
               </p>
               
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
@@ -269,11 +269,11 @@ export const PostOnboardingCompliancePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-gilroy text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Comprehensive Post-Onboarding Features
+              Comprehensive Post-Onboarding Features for Indian Banks
             </h2>
             <p className="font-inter text-xl text-gray-600 max-w-3xl mx-auto">
-              Advanced capabilities that ensure continuous compliance and risk management 
-              throughout the entire customer relationship lifecycle.
+              Advanced capabilities specifically designed for Indian financial institutions to ensure continuous 
+              RBI compliance and risk management throughout the entire customer relationship lifecycle.
             </p>
           </div>
 
@@ -297,11 +297,11 @@ export const PostOnboardingCompliancePage: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="font-gilroy text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
-                Measurable Business Impact
+                Measurable Business Impact for Indian Banks
               </h2>
               <p className="font-inter text-lg text-gray-600 mb-8 leading-relaxed">
-                Our post-onboarding compliance solution delivers quantifiable results that directly 
-                impact your bottom line while ensuring regulatory adherence and risk mitigation.
+                Our post-onboarding compliance solution delivers quantifiable results for Indian financial institutions 
+                that directly impact your bottom line while ensuring RBI regulatory adherence and risk mitigation.
               </p>
               
               <div className="space-y-4">
@@ -320,19 +320,19 @@ export const PostOnboardingCompliancePage: React.FC = () => {
                 <h3 className="font-gilroy text-2xl font-bold text-gray-900 mb-6">ROI Calculator</h3>
                 <div className="space-y-6">
                   <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
-                    <span className="font-semibold text-gray-900">Annual Compliance Costs</span>
+                    <span className="font-semibold text-gray-900">Annual RBI Compliance Costs</span>
                     <span className="text-2xl font-bold text-red-600">-65%</span>
                   </div>
                   <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
-                    <span className="font-semibold text-gray-900">False Positive Reduction</span>
+                    <span className="font-semibold text-gray-900">PMLA False Positive Reduction</span>
                     <span className="text-2xl font-bold text-green-600">-80%</span>
                   </div>
                   <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
-                    <span className="font-semibold text-gray-900">Detection Accuracy</span>
+                    <span className="font-semibold text-gray-900">STR Detection Accuracy</span>
                     <span className="text-2xl font-bold text-blue-600">99.7%</span>
                   </div>
                   <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
-                    <span className="font-semibold text-gray-900">Manual Work Reduction</span>
+                    <span className="font-semibold text-gray-900">Manual Compliance Work Reduction</span>
                     <span className="text-2xl font-bold text-purple-600">-90%</span>
                   </div>
                 </div>
@@ -347,11 +347,11 @@ export const PostOnboardingCompliancePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-gilroy text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Industry Applications
+              Indian Financial Sector Applications
             </h2>
             <p className="font-inter text-xl text-gray-600 max-w-3xl mx-auto">
-              Tailored solutions for different financial sectors with industry-specific 
-              compliance requirements and risk management needs.
+              Tailored solutions for different Indian financial sectors with RBI-specific 
+              compliance requirements and risk management needs for the Indian market.
             </p>
           </div>
 
@@ -379,11 +379,11 @@ export const PostOnboardingCompliancePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-gilroy text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Regulatory Compliance Coverage
+              Indian Regulatory Compliance Coverage
             </h2>
             <p className="font-inter text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive coverage of major regulatory frameworks and compliance requirements 
-              across multiple jurisdictions and financial sectors.
+              Comprehensive coverage of major Indian regulatory frameworks and compliance requirements 
+              across RBI, SEBI, IRDAI, and other Indian financial sector regulators.
             </p>
           </div>
 
@@ -411,8 +411,8 @@ export const PostOnboardingCompliancePage: React.FC = () => {
             </div>
             <blockquote className="text-2xl font-medium text-gray-900 mb-8 italic">
               "Reguard's Post Onboarding Compliance solution has transformed our ongoing customer 
-              monitoring. We've reduced compliance costs by 60% while improving our detection 
-              accuracy to 99.8%. The automated reporting alone saves us 40 hours per week."
+              monitoring for RBI compliance. We've reduced our PMLA compliance costs by 60% while improving our STR detection 
+              accuracy to 99.8%. The automated FIU-IND reporting alone saves us 40 hours per week."
             </blockquote>
             <div className="flex items-center justify-center space-x-4">
               <img 
@@ -422,7 +422,7 @@ export const PostOnboardingCompliancePage: React.FC = () => {
               />
               <div className="text-left">
                 <h4 className="font-semibold text-gray-900">Michael Chen</h4>
-                <p className="text-gray-600">Chief Compliance Officer, Global Financial Services</p>
+                <p className="text-gray-600">Chief Compliance Officer, Leading Indian Private Bank</p>
               </div>
             </div>
           </div>
@@ -433,11 +433,11 @@ export const PostOnboardingCompliancePage: React.FC = () => {
       <section className="py-20 bg-gradient-to-r from-indigo-600 to-purple-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-gilroy text-3xl sm:text-4xl font-bold mb-4">
-            Ready to Transform Your Compliance Operations?
+            Ready to Transform Your Indian Compliance Operations?
           </h2>
           <p className="font-inter text-xl text-indigo-100 max-w-3xl mx-auto mb-8">
-            Join over 1,500 financial institutions that trust Reguard for their post-onboarding 
-            compliance needs. Start your journey to automated, intelligent compliance today.
+            Join over 500 Indian financial institutions that trust Reguard for their post-onboarding 
+            RBI compliance needs. Start your journey to automated, intelligent Indian compliance today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button 
