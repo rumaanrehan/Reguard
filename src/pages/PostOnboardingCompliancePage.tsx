@@ -21,7 +21,9 @@ import {
   BarChart3,
   Search,
   Bell,
-  Database
+  Database,
+  Building2,
+  CreditCard
 } from 'lucide-react';
 
 export const PostOnboardingCompliancePage: React.FC = () => {
@@ -269,10 +271,10 @@ export const PostOnboardingCompliancePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-gilroy text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Comprehensive Post-Onboarding Features for Indian Banks
+              Comprehensive Post-Onboarding Features
             </h2>
             <p className="font-inter text-xl text-gray-600 max-w-3xl mx-auto">
-              Advanced capabilities specifically designed for Indian financial institutions to ensure continuous 
+              Advanced capabilities specifically designed for financial institutions to ensure continuous 
               RBI compliance and risk management throughout the entire customer relationship lifecycle.
             </p>
           </div>
@@ -297,10 +299,10 @@ export const PostOnboardingCompliancePage: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="font-gilroy text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
-                Measurable Business Impact for Indian Banks
+                Measurable Business Impact
               </h2>
               <p className="font-inter text-lg text-gray-600 mb-8 leading-relaxed">
-                Our post-onboarding compliance solution delivers quantifiable results for Indian financial institutions 
+                Our post-onboarding compliance solution delivers quantifiable results for financial institutions 
                 that directly impact your bottom line while ensuring RBI regulatory adherence and risk mitigation.
               </p>
               
@@ -347,15 +349,15 @@ export const PostOnboardingCompliancePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-gilroy text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Indian Financial Sector Applications
+              Major Financial Sectors
             </h2>
             <p className="font-inter text-xl text-gray-600 max-w-3xl mx-auto">
-              Tailored solutions for different Indian financial sectors with RBI-specific 
-              compliance requirements and risk management needs for the Indian market.
+              Tailored solutions for different financial sectors with comprehensive 
+              compliance requirements and risk management needs across major industries.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             {useCases.map((useCase, index) => (
               <div key={index} className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
                 <div className="flex items-center space-x-4 mb-6">
@@ -371,6 +373,41 @@ export const PostOnboardingCompliancePage: React.FC = () => {
               </div>
             ))}
           </div>
+          
+          {/* Additional Major Sectors */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-xl border border-blue-100 text-center hover:shadow-lg transition-all duration-300">
+              <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center mx-auto mb-4">
+                <Building2 size={20} className="text-white" />
+              </div>
+              <h3 className="font-semibold text-gray-900 text-sm mb-2">Cooperative Banks</h3>
+              <p className="text-xs text-gray-600">RBI compliance for cooperative banking sector</p>
+            </div>
+            
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-6 rounded-xl border border-green-100 text-center hover:shadow-lg transition-all duration-300">
+              <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-lg flex items-center justify-center mx-auto mb-4">
+                <TrendingUp size={20} className="text-white" />
+              </div>
+              <h3 className="font-semibold text-gray-900 text-sm mb-2">Microfinance</h3>
+              <p className="text-xs text-gray-600">PMLA compliance for MFI operations</p>
+            </div>
+            
+            <div className="bg-gradient-to-br from-purple-50 to-violet-50 p-6 rounded-xl border border-purple-100 text-center hover:shadow-lg transition-all duration-300">
+              <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-violet-600 rounded-lg flex items-center justify-center mx-auto mb-4">
+                <CreditCard size={20} className="text-white" />
+              </div>
+              <h3 className="font-semibold text-gray-900 text-sm mb-2">Credit Bureaus</h3>
+              <p className="text-xs text-gray-600">Data protection and regulatory compliance</p>
+            </div>
+            
+            <div className="bg-gradient-to-br from-orange-50 to-red-50 p-6 rounded-xl border border-orange-100 text-center hover:shadow-lg transition-all duration-300">
+              <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-600 rounded-lg flex items-center justify-center mx-auto mb-4">
+                <Globe size={20} className="text-white" />
+              </div>
+              <h3 className="font-semibold text-gray-900 text-sm mb-2">Foreign Banks</h3>
+              <p className="text-xs text-gray-600">Cross-border compliance and FEMA adherence</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -379,11 +416,11 @@ export const PostOnboardingCompliancePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-gilroy text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Indian Regulatory Compliance Coverage
+              Regulatory Compliance Coverage
             </h2>
             <p className="font-inter text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive coverage of major Indian regulatory frameworks and compliance requirements 
-              across RBI, SEBI, IRDAI, and other Indian financial sector regulators.
+              Comprehensive coverage of major regulatory frameworks and compliance requirements 
+              across RBI, SEBI, IRDAI, and other financial sector regulators.
             </p>
           </div>
 
@@ -433,11 +470,11 @@ export const PostOnboardingCompliancePage: React.FC = () => {
       <section className="py-20 bg-gradient-to-r from-indigo-600 to-purple-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-gilroy text-3xl sm:text-4xl font-bold mb-4">
-            Ready to Transform Your Indian Compliance Operations?
+            Ready to Transform Your Compliance Operations?
           </h2>
           <p className="font-inter text-xl text-indigo-100 max-w-3xl mx-auto mb-8">
-            Join over 500 Indian financial institutions that trust Reguard for their post-onboarding 
-            RBI compliance needs. Start your journey to automated, intelligent Indian compliance today.
+            Join over 500 financial institutions that trust Reguard for their post-onboarding 
+            compliance needs. Start your journey to automated, intelligent compliance today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button 
