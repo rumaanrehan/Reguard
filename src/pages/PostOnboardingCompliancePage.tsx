@@ -125,15 +125,19 @@ export const PostOnboardingCompliancePage: React.FC = () => {
     'RBI Guidelines',
     'PMLA Compliance',
     'FEMA Regulations',
-    'Companies Act 2013',
     'SEBI Regulations',
     'IRDAI Guidelines',
-    'NPCI Standards',
+    'Sanctions Screening',
     'FIU-IND Reporting',
-    'Basel III (India)',
+    'Negative Profile Checks',
     'KYC Norms (India)',
-    'FATCA (India)',
-    'CRS (India)'
+    'PEP Screening',
+    'Adverse Media Monitoring',
+    'NPCI Standards',
+    'Companies Act 2013',
+    'Basel III (India)',
+    'UPI Guidelines',
+    'Digital Lending Guidelines'
   ];
 
   const stats = [
