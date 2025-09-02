@@ -85,39 +85,39 @@ export const PostOnboardingCompliancePage: React.FC = () => {
   const useCases = [
     {
       icon: Shield,
-      title: 'Indian Banks & NBFCs',
+      title: 'Banks & NBFCs',
       description: 'Continuous monitoring of account holders for PMLA compliance, transaction monitoring as per RBI guidelines, and automated regulatory reporting to FIU-IND.',
-      metrics: '200+ Indian Banks Trust Us'
+      metrics: '200+ Banks Trust Us'
     },
     {
       icon: TrendingUp,
-      title: 'Indian Investment Management',
+      title: 'Investment Management',
       description: 'Ongoing due diligence for investment clients, beneficial ownership tracking as per Companies Act, and SEBI compliance monitoring for Indian markets.',
-      metrics: '150+ Indian Investment Firms'
+      metrics: '150+ Investment Firms'
     },
     {
       icon: Globe,
-      title: 'Indian Cryptocurrency Platforms',
+      title: 'Cryptocurrency Platforms',
       description: 'Real-time monitoring of crypto users, transaction analysis, and compliance with evolving Indian digital asset regulations and RBI guidelines.',
-      metrics: '50+ Indian Crypto Platforms'
+      metrics: '50+ Crypto Platforms'
     },
     {
       icon: Users,
-      title: 'Indian Insurance Companies',
+      title: 'Insurance Companies',
       description: 'Continuous policy holder monitoring, claims fraud detection, and IRDAI compliance for Indian insurance operations with automated regulatory reporting.',
-      metrics: '100+ Indian Insurance Providers'
+      metrics: '100+ Insurance Providers'
     },
     {
       icon: BarChart3,
-      title: 'Indian Fintech & Payment Companies',
+      title: 'Fintech & Payment Companies',
       description: 'Ongoing customer risk assessment, payment fraud monitoring, and compliance with RBI payment service regulations and NPCI guidelines.',
-      metrics: '300+ Indian Fintech Companies'
+      metrics: '300+ Fintech Companies'
     },
     {
       icon: FileText,
-      title: 'Indian Wealth Management',
+      title: 'Wealth Management',
       description: 'Continuous client monitoring, suitability assessments, and compliance with SEBI wealth management regulations and Indian tax compliance requirements.',
-      metrics: '80+ Indian Wealth Managers'
+      metrics: '80+ Wealth Managers'
     }
   ];
 
@@ -137,7 +137,7 @@ export const PostOnboardingCompliancePage: React.FC = () => {
   ];
 
   const stats = [
-    { value: '500+', label: 'Indian Financial Institutions', description: 'Trust our compliance solutions' },
+    { value: '500+', label: 'Financial Institutions', description: 'Trust our compliance solutions' },
     { value: '99.7%', label: 'Detection Accuracy', description: 'In suspicious activity identification per PMLA' },
     { value: '65%', label: 'Cost Reduction', description: 'In RBI compliance operations' },
     { value: '24/7', label: 'Monitoring', description: 'Continuous RBI compliance surveillance' }
@@ -347,27 +347,27 @@ export const PostOnboardingCompliancePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-gilroy text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Major Financial Sectors
+              Major Financial Sectors Applications
             </h2>
             <p className="font-inter text-xl text-gray-600 max-w-3xl mx-auto">
-              Tailored solutions for different financial sectors with comprehensive 
-              compliance requirements and risk management needs across major industry verticals.
+              Tailored solutions for different financial sectors with RBI-specific compliance 
+              requirements and risk management needs for the Indian market.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
             {useCases.map((useCase, index) => (
-              <div key={index} className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 group">
-                <div className="flex items-center space-x-4 mb-6">
-                  <div className="w-14 h-14 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                    <useCase.icon size={24} className="text-white" />
+              <div key={index} className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 group hover:border-indigo-200">
+                <div className="flex items-start space-x-4 mb-6">
+                  <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 flex-shrink-0">
+                    <useCase.icon size={28} className="text-white" />
                   </div>
                   <div>
-                    <h3 className="font-gilroy text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors">{useCase.title}</h3>
-                    <span className="text-sm text-indigo-600 font-semibold bg-indigo-50 px-2 py-1 rounded-full">{useCase.metrics}</span>
+                    <h3 className="font-gilroy text-xl font-bold text-gray-900 group-hover:text-indigo-600 transition-colors mb-2">{useCase.title}</h3>
+                    <span className="text-sm text-indigo-600 font-semibold bg-indigo-50 px-3 py-1.5 rounded-full">{useCase.metrics}</span>
                   </div>
                 </div>
-                <p className="font-inter text-gray-600 leading-relaxed text-sm">{useCase.description}</p>
+                <p className="font-inter text-gray-600 leading-relaxed">{useCase.description}</p>
               </div>
             ))}
           </div>
